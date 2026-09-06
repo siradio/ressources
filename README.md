@@ -37,9 +37,19 @@ Un des documents est un bloc-notes : il enregistre la saisie au fil de la frappe
   ni incluses dans ce dépôt.
 - Elles ne sont **pas chiffrées** : le mot de passe protège le contenu publié, pas la
   saisie. N'y consigner ni mot de passe, ni jeton, ni donnée personnelle.
-- Elles sont propres à un navigateur et à une machine, et disparaissent avec un
-  nettoyage des données de site. Le document propose un export `.json` et un export
-  Markdown ; c'est la seule sauvegarde durable.
+
+Pour les retrouver depuis un autre navigateur ou une autre machine, le document permet
+de **lier un fichier `.json`** choisi par l'utilisateur (File System Access API, donc
+Chrome et Edge sur poste de travail) : le carnet y écrit à chaque modification et le
+relit à l'ouverture. Placé dans un dossier synchronisé, ce fichier suit le poste.
+
+La relecture **fusionne entrée par entrée** en gardant la plus récente, l'égalité
+conservant la version locale : deux postes ayant travaillé en parallèle ne s'écrasent
+pas. Aucun service tiers, aucun jeton, rien de tout cela n'est stocké dans ce dépôt.
+Le handle du fichier est conservé dans l'IndexedDB `carnet-euromaster` du navigateur.
+
+Dans les navigateurs sans cette interface, l'export `.json` et l'export Markdown
+restent la voie universelle.
 
 ## Prérequis navigateur
 
