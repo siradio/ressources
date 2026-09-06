@@ -8,11 +8,12 @@ Portail de documentation d'architecture et d'exploitation, organisé par technol
 
 | Technologie | Documents |
 |---|---|
-| Talend | Remote Engine en production · Talend Runtime ESB |
+| Talend | Remote Engine · Talend Runtime ESB · Développement Routes & Services · Laboratoire de diagnostic · Audit de sécurité · Mémento des commandes |
+| Organisation | Intégration Euromaster · Carnet d'intégration |
+| Azure | Azure Service Bus |
 
-Le portail est prévu pour accueillir d'autres technologies : chaque entrée du menu
-est une technologie, chaque sous-entrée un document, et chaque document expose ses
-chapitres en troisième niveau.
+Neuf documents, 116 chapitres. Chaque entrée du menu est une technologie, chaque
+sous-entrée un document, et chaque document expose ses chapitres en troisième niveau.
 
 ## Accès protégé
 
@@ -26,6 +27,19 @@ Le fichier publié ne contient donc aucun texte lisible : sans le mot de passe, 
 rien à extraire du code source de la page.
 
 **Les identifiants ne figurent pas dans ce dépôt.** Ils sont transmis séparément.
+
+## Le carnet d'intégration
+
+Un des documents est un bloc-notes : il enregistre la saisie au fil de la frappe dans le
+**stockage local du navigateur** (`localStorage`), sous la clé `carnet-euromaster-v1`.
+
+- Les notes ne quittent jamais la machine : elles ne sont ni transmises, ni publiées,
+  ni incluses dans ce dépôt.
+- Elles ne sont **pas chiffrées** : le mot de passe protège le contenu publié, pas la
+  saisie. N'y consigner ni mot de passe, ni jeton, ni donnée personnelle.
+- Elles sont propres à un navigateur et à une machine, et disparaissent avec un
+  nettoyage des données de site. Le document propose un export `.json` et un export
+  Markdown ; c'est la seule sauvegarde durable.
 
 ## Prérequis navigateur
 
