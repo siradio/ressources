@@ -12,7 +12,7 @@ Portail de documentation d'architecture et d'exploitation, organisé par technol
 | Organisation | Intégration Euromaster · Carnet d'intégration |
 | Azure | Azure Service Bus |
 
-Onze documents, 143 chapitres. Chaque entrée du menu est une technologie, chaque
+Onze documents, 144 chapitres. Chaque entrée du menu est une technologie, chaque
 sous-entrée un document, et chaque document expose ses chapitres en troisième niveau.
 
 ## Accès protégé
