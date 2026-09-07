@@ -8,11 +8,11 @@ Portail de documentation d'architecture et d'exploitation, organisé par technol
 
 | Technologie | Documents |
 |---|---|
-| Talend | Remote Engine · Talend Runtime ESB · Développement Routes & Services · Laboratoire de diagnostic · Audit de sécurité · TMC : bonnes pratiques et audit · Mémento des commandes |
+| Talend | Remote Engine · Talend Runtime ESB · Développement Routes & Services · Laboratoire de diagnostic · Audit de sécurité · TMC : bonnes pratiques et audit · Supervision avec Grafana · Mémento des commandes |
 | Organisation | Intégration Euromaster · Carnet d'intégration |
 | Azure | Azure Service Bus |
 
-Dix documents, 131 chapitres. Chaque entrée du menu est une technologie, chaque
+Onze documents, 143 chapitres. Chaque entrée du menu est une technologie, chaque
 sous-entrée un document, et chaque document expose ses chapitres en troisième niveau.
 
 ## Accès protégé
