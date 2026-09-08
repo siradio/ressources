@@ -13,7 +13,7 @@ Portail de documentation d'architecture et d'exploitation, organisé par technol
 | Azure | Azure Service Bus |
 | Grafana | Grafana Cloud |
 
-Quinze documents, 193 chapitres. Chaque entrée du menu est une technologie, chaque
+Quinze documents, 194 chapitres. Chaque entrée du menu est une technologie, chaque
 sous-entrée un document, et chaque document expose ses chapitres en troisième niveau.
 
 ## Accès protégé
