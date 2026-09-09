@@ -8,12 +8,12 @@ Portail de documentation d'architecture et d'exploitation, organisé par technol
 
 | Technologie | Documents |
 |---|---|
-| Talend | Java pour Talend · Remote Engine · Talend Runtime ESB · Développement Routes & Services · Laboratoire de diagnostic · Audit de sécurité · TMC : bonnes pratiques et audit · Nexus et Artifactory · API Talend Cloud · Supervision avec Grafana · Grafana Cloud + Talend · Linux · Mémento des commandes |
+| Talend | How-To · Java pour Talend · Remote Engine · Talend Runtime ESB · Développement Routes & Services · Laboratoire de diagnostic · Audit de sécurité · TMC : bonnes pratiques et audit · Nexus et Artifactory · API Talend Cloud · Supervision avec Grafana · Grafana Cloud + Talend · Linux · Mémento des commandes |
 | Organisation | Intégration Euromaster · Deck de restitution · Carnet d'intégration |
 | Azure | Azure Service Bus |
 | Grafana | Grafana Cloud |
 
-Dix-sept documents, 221 chapitres. Chaque entrée du menu est une technologie, chaque
+Dix-huit documents, 231 chapitres. Chaque entrée du menu est une technologie, chaque
 sous-entrée un document, et chaque document expose ses chapitres en troisième niveau.
 
 ## Accès protégé
