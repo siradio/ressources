@@ -13,7 +13,7 @@ Portail de documentation d'architecture et d'exploitation, organisé par technol
 | Azure | Azure Service Bus |
 | Grafana | Grafana Cloud |
 
-Dix-huit documents, 244 chapitres. Chaque entrée du menu est une technologie, chaque
+Dix-huit documents, 254 chapitres. Chaque entrée du menu est une technologie, chaque
 sous-entrée un document, et chaque document expose ses chapitres en troisième niveau.
 
 ## Accès protégé
@@ -51,6 +51,15 @@ Le handle du fichier est conservé dans l'IndexedDB `carnet-euromaster` du navig
 
 Dans les navigateurs sans cette interface, l'export `.json` et l'export Markdown
 restent la voie universelle.
+
+## Un fichier joint
+
+Le chapitre « Rapport de restitution · le modèle » du document How-To propose un
+modèle de rapport d'audit au format `.docx`. Le fichier est **embarqué dans la page
+chiffrée**, encodé en base64 : le bouton le reconstitue dans le navigateur et le
+remet à l'utilisateur sans aucun appel réseau.
+
+Il suit donc le même sort que le reste du contenu : illisible sans le mot de passe.
 
 ## Prérequis navigateur
 
