@@ -12,9 +12,14 @@ Portail de documentation d'architecture et d'exploitation, organisé par technol
 | Organisation | Intégration Euromaster · Deck de restitution · Carnet d'intégration |
 | Azure | Azure Service Bus |
 | Grafana | Grafana Cloud |
+| Temp | Relevé des journaux · SalesManagement |
 
-Dix-huit documents, 273 chapitres. Chaque entrée du menu est une technologie, chaque
+Dix-neuf documents, 277 chapitres. Chaque entrée du menu est une technologie, chaque
 sous-entrée un document, et chaque document expose ses chapitres en troisième niveau.
+
+La rubrique **Temp** reçoit les notes de travail liées à une intervention en cours. Son
+contenu est éphémère : il disparaît ou rejoint un document du référentiel une fois
+l'intervention close.
 
 ## Accès protégé
 
