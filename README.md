@@ -13,7 +13,7 @@ Portail de documentation d'architecture et d'exploitation, organisé par technol
 | Azure | Azure Service Bus |
 | Grafana | Grafana Cloud |
 
-Dix-huit documents, 267 chapitres. Chaque entrée du menu est une technologie, chaque
+Dix-huit documents, 273 chapitres. Chaque entrée du menu est une technologie, chaque
 sous-entrée un document, et chaque document expose ses chapitres en troisième niveau.
 
 ## Accès protégé
@@ -54,13 +54,15 @@ restent la voie universelle.
 
 ## Fichiers joints
 
-Trois chapitres du document How-To proposent un fichier Word au téléchargement :
+Quatre chapitres du document How-To proposent un fichier Word au téléchargement :
 
 - « Rapport de restitution · le modèle » — le modèle de rapport d'audit ;
 - « Désynchronisation RE ↔ Runtime · le constat » — l'analyse d'incident, mise en
   page et prête à joindre à un ticket ;
 - « Plan de diagnostic · cadre et précautions » — le protocole de reproduction, à
-  garder ouvert pendant le test.
+  garder ouvert pendant le test ;
+- « Rapport de diagnostic · constat et premières actions » — le rapport complet,
+  preuves, cause racine et plan de correction.
 
 Les fichiers sont **embarqués dans la page chiffrée**, encodés en base64 : le bouton
 les reconstitue dans le navigateur et les remet à l'utilisateur sans aucun appel
