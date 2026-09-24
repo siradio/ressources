@@ -8,13 +8,13 @@ Portail de documentation d'architecture et d'exploitation, organisé par technol
 
 | Technologie | Documents |
 |---|---|
-| Talend | How-To · Java pour Talend · Remote Engine · Talend Runtime ESB · Développement Routes & Services · Laboratoire de diagnostic · Audit de sécurité · TMC : bonnes pratiques et audit · Nexus et Artifactory · API Talend Cloud · Supervision avec Grafana · Grafana Cloud + Talend · Linux · Mémento des commandes |
+| Talend | How-To · Java pour Talend · Remote Engine · Talend Runtime ESB · Développement Routes & Services · Laboratoire de diagnostic · Audit de sécurité · TMC : bonnes pratiques et audit · Nexus et Artifactory · Ansible et Talend · API Talend Cloud · Supervision avec Grafana · Grafana Cloud + Talend · Linux · Mémento des commandes |
 | Organisation | Intégration Euromaster · Deck de restitution · Carnet d'intégration |
 | Azure | Azure Service Bus |
 | Grafana | Grafana Cloud |
 | Temp | Relevé des journaux · SalesManagement |
 
-Dix-neuf documents, 277 chapitres. Chaque entrée du menu est une technologie, chaque
+Vingt documents, 288 chapitres. Chaque entrée du menu est une technologie, chaque
 sous-entrée un document, et chaque document expose ses chapitres en troisième niveau.
 
 La rubrique **Temp** reçoit les notes de travail liées à une intervention en cours. Son
@@ -59,7 +59,8 @@ restent la voie universelle.
 
 ## Fichiers joints
 
-Quatre chapitres du document How-To proposent un fichier Word au téléchargement :
+Cinq chapitres proposent un fichier au téléchargement. Quatre dans le document
+How-To :
 
 - « Rapport de restitution · le modèle » — le modèle de rapport d'audit ;
 - « Désynchronisation RE ↔ Runtime · le constat » — l'analyse d'incident, mise en
@@ -69,9 +70,14 @@ Quatre chapitres du document How-To proposent un fichier Word au téléchargemen
 - « Rapport de diagnostic · constat et premières actions » — le rapport complet,
   preuves, cause racine et plan de correction.
 
+Et un dans « Ansible et Talend » :
+
+- « Partir de la machine, pas de la documentation » — `ansible-talend.zip`,
+  l'ossature des trois rôles, de l'inventaire et du playbook.
+
 Les fichiers sont **embarqués dans la page chiffrée**, encodés en base64 : le bouton
-les reconstitue dans le navigateur et les remet à l'utilisateur sans aucun appel
-réseau.
+les reconstitue dans le navigateur, avec leur type MIME, et les remet à l'utilisateur
+sans aucun appel réseau.
 
 Ils suivent donc le même sort que le reste du contenu : illisibles sans le mot de passe.
 
